@@ -10,7 +10,7 @@ $("#currentDay").text(currentMoment);
 
 // Save button function 
 $(".saveBtn").on("click", function(){
-    var textContent= $(this).siblings(".description").val();
+    var textContent= $(this).siblings("#textInput").val();
     console.log(textContent);
     localStorage.setItem("textContent", textContent);
 
