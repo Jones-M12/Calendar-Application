@@ -11,8 +11,8 @@ $("#currentDay").text(currentMoment);
 // Save button function 
 $(".saveBtn").on("click", function(){
     var textContent= $(this).siblings(".description").val();
-    var timeBlock= $(this).parent().attr("id");
-    localStorage.setItem("textContent", timeBlock);
+    console.log(textContent);
+    localStorage.setItem("textContent", textContent);
 
 
 
