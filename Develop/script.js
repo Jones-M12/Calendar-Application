@@ -16,12 +16,18 @@ $(".saveBtn").on("click", function(){
     localStorage.setItem("timeBlock", textContent);
 });
 
+//attempt to render data so it will save, does not work
+
 $("#textInput").each(function(){
 
 var id =$(this).parent().attr("id");
-$(this.val(localStorage.getItem(id)));
+$(this).val(localStorage.getItem(id));
 
 });
+
+
+
+
 //Using a format
 
 // currentMoment = ()
