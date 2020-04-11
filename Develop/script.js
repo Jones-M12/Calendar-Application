@@ -11,7 +11,7 @@ $("#currentDay").text(currentMoment);
 // Save button function 
 $(".saveBtn").on("click", function(){
     var textContent= $(this).siblings("#textInput").val();
-    var tectContent= $(this).parent.attr("#id");
+    var tectContent= $(this).parent.attr("id");
     console.log(textContent);
     localStorage.setItem("textContent", textContent);
 });
