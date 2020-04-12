@@ -9,7 +9,7 @@ $("#currentDay").text(currentMoment);
 
 
 // Save button function 
-$(".saveBtn").on("click", function(){
+$(".saveBtn").click(function(){
     event.preventDefault();
     var textContent= $(this).siblings("#textInput").val();
     var timeBlock= $(this).parent().attr("id");
