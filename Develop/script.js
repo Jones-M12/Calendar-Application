@@ -26,15 +26,3 @@ $(this).val(localStorage.getItem(id));
 });
 
 
-
-
-//Using a format
-
-// currentMoment = ()
-
-
-// moment().format('MMMM Do YYYY, h:mm:ss a')
-// console.log(m.toString());
-// moment('01/12/2016', 'DD/MM/YYYY', true).format()
-// "2016-12-01T00:00:00-06:00"
-
