@@ -23,6 +23,4 @@ You are required to submit the following for review:
 
 * The URL of the deployed application: https://jones-m12.github.io/Calendar-Application/
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-
+* The URL of the GitHub repository: https://github.com/Jones-M12/Calendar-Application.git
