@@ -19,8 +19,14 @@ The following animation demonstrates the application functionality:
 
 ## Review
 
-You are required to submit the following for review:
-
 * The URL of the deployed application: https://jones-m12.github.io/Calendar-Application/
 
 * The URL of the GitHub repository: https://github.com/Jones-M12/Calendar-Application.git
+
+## Contact
+
+* Github: [Jones-M12](https://github.com/Jones-M12) 
+
+* Email: malesharj@gmail.com 
+
+* LindedIn: [m-jones89](https://www.linkedin.com/in/m-jones89/)
