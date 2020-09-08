@@ -1,8 +1,21 @@
 # Calendar Application
 
- A simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+ A simple calendar application that allows the user to save events for each hour of the day. 
 
-Uses the Moment.js
+ Technology Used:
+
+    Moment.js
+
+    GitHub Pages
+
+    HTML
+
+    CSS
+
+    Javascript
+
+    Local Storage
+
 
 ## User Story
 
@@ -15,7 +28,15 @@ SO THAT I can manage my time effectively
 
 The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+* User can input notes or task in each of the time slots
+
+* Click Save when ready to save
+
+* Input saved will be stored in local storage, ensuring they will not be deleted upon refreshing.
+
+* Input field can be updated by clicking on it, changing input, and Click Save.
+
+![day planner demo](./asset/WorkDayScheduler.gif)
 
 ## Review
 

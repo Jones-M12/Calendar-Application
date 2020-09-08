@@ -2,10 +2,20 @@
 // console.log("test");
 
 //Format to create the current day displayed on the calendar
-var currentMoment= moment().format('LLLL');
-console.log(currentMoment);
 
-$("#currentDay").text(currentMoment);
+var currentMoment= function() { 
+    var now = moment().format('LLLL');
+  console.log(currentMoment);
+  
+  $("#currentDay").text(now)
+  }
+  currentMoment()
+  setInterval(currentMoment, 60000)
+
+// var currentMoment= moment().format('LLLL');
+// console.log(currentMoment);
+
+// $("#currentDay").text(currentMoment);
 
 
 // Save button function 
